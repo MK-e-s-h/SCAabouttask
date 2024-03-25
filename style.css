@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+.header-name{
+    color: brown;
+}
+img{
+    width: 100%
+}
+
+header img {
+    width: 50%;
+    border: none;
+    border-radius: 50%;
+
+}
+.header-list ul li a {
+    color: brown;
+}
+
+.header-logo {
+    width: 25%;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    background-color:grey;
+}
+.logo-name{
+margin: 0px 20px 0px 20px;
+padding: 0px 20px 0px 20px;
+}
+.sec h2{
+    color: brown;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: brown;
+}
+.sec h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0px 0px 0px;
+}
+
+.sec-paragraph {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+}
+
+.sec-paragraph img {
+    width: 40%;
+    height: 50%;
+    border: none;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+
+#skill {
+    color: brown;
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+    font-size: 2rem;
+}
+.skill-cont {
+    margin: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.skill-cont div {
+    margin:auto ;
+    width: 300px;
+    height: 300px;
+    list-style-image: url(./check-mark_5290058.png);
+    text-align: center;
+    font-size: 1.5rem;
+}
+.skill-cont li{
+    border: 2px solid brown;
+    border-radius: 20px;
+    background-color: grey;
+
+
+
+}  
+#contact{
+    color: brown;
+    text-align: center;
+    font-size: 2rem;
+}
+.cont ul li a{
+    color: blue;
+}
+.cont{
+    margin: auto;
+    width: 50%;
+    height: 50%;
+} 
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cont ul{
+    margin: auto;
+    padding: 10px;
+}
+.cont li{
+    padding: 1px;
+    border: 3px solid brown;
+    border-radius:20px;
+    text-align: center;
+
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    background-color:grey;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+@media screen {
+    
+}
